@@ -18,5 +18,10 @@
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }
